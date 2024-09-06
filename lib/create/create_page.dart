@@ -34,6 +34,9 @@ class CreatePage extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
+              const SizedBox(
+                height: 20,
+              ),
               ElevatedButton(onPressed: () {}, child: const Text('이미지 선택')),
               Image.network(
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDVpREzBNzstHwAYj-N-du9w9-4VyekBfQMw&s",
